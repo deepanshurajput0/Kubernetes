@@ -20,3 +20,11 @@ Developer	Interacts with the master to deploy/manage apps
 
 <img width="1687" height="788" alt="Screenshot 2025-08-08 005711" src="https://github.com/user-attachments/assets/127960c9-7049-4a0c-8ed4-477f684b0511" />
 
+## Kubernetes Commands
+
+- kind create cluster --name local
+- kubectl get nodes
+- kubectl get pods
+- kubectl run nginx --image=nginx --port=80
+- kubectl get pods
+- kubectl logs nginx
