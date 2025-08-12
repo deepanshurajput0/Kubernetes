@@ -38,4 +38,12 @@ In kubernetes deployment is the resource object which manages the lifecycle of y
 - rolling updates - it can update your old pods with new pods without having any downtime 
 - rollback - if something happen wrong with new inmage then it will be revert back to previous image
 
+## Replicas 
+
+replicas simply a number of copies of pods you want to running at same time 
+
+## Why we use Replicas 
+
+- High availablity - if any pod got crashed then we have other pods which are running continuosly and it avoids downtime
+- Load distribution → Multiple replicas allow incoming requests to be spread across pods (using a Service), improving performance and avoiding overload on a single pod.
 
