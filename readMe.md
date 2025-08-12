@@ -28,3 +28,13 @@ Developer	Interacts with the master to deploy/manage apps
 - kubectl run nginx --image=nginx --port=80
 - kubectl get pods
 - kubectl logs nginx
+
+## Deployment 
+
+In kubernetes deployment is the resource object which manages the lifecycle of your application pods ensure they are always running in desired state 
+Declarative - you can run 3 replicas of a specific image 
+Self healing - If any pod goes down or crashes then it automatically spin up new pod and replcae it with old one
+rolling updates - it can update your old pods with new pods without having any downtime 
+rollback - if something happen wrong with new inmage then it will be revert back to previous image
+
+
