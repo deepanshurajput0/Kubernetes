@@ -47,3 +47,15 @@ replicas simply a number of copies of pods you want to running at same time
 - High availablity - if any pod got crashed then we have other pods which are running continuosly and it avoids downtime
 - Load distribution → Multiple replicas allow incoming requests to be spread across pods (using a Service), improving performance and avoiding overload on a single pod.
 
+## Service 
+
+In Kubernetes, a Service is an abstraction that defines a logical set of Pods and a policy by which to access them. Pods are ephemeral (they can die and be replaced), so Services provide a stable way to reach these dynamic Pods. Essentially, a Service acts as a network endpoint that stays constant even when the underlying Pods change.
+
+<img width="1920" height="1080" alt="Screenshot (308)" src="https://github.com/user-attachments/assets/67681181-0113-4655-8fbb-2a86fd82e12f" />
+
+<img width="1920" height="1080" alt="Screenshot (307)" src="https://github.com/user-attachments/assets/b4310d11-8168-40dd-85be-d41b493d9074" />
+
+
+
+
+
