@@ -51,10 +51,41 @@ replicas simply a number of copies of pods you want to running at same time
 
 In Kubernetes, a Service is an abstraction that defines a logical set of Pods and a policy by which to access them. Pods are ephemeral (they can die and be replaced), so Services provide a stable way to reach these dynamic Pods. Essentially, a Service acts as a network endpoint that stays constant even when the underlying Pods change.
 
+
 <img width="1920" height="1080" alt="Screenshot (308)" src="https://github.com/user-attachments/assets/67681181-0113-4655-8fbb-2a86fd82e12f" />
 
 <img width="1920" height="1080" alt="Screenshot (307)" src="https://github.com/user-attachments/assets/b4310d11-8168-40dd-85be-d41b493d9074" />
 
+
+## Types of Services
+
+    ClusterIP (default)
+
+        Exposes the service internally inside the cluster.
+
+        Other Pods in the cluster can access it via the service name.
+
+        Example: Internal APIs.
+
+    NodePort
+
+        Exposes the service on a static port on each Node.
+
+        Can be accessed externally via NodeIP:NodePort.
+
+    LoadBalancer
+
+        Works with cloud providers to provide an external load balancer.
+
+        Exposes the service to the internet.
+
+        Useful for production apps.
+
+    ExternalName
+
+        Maps a service to an external DNS name.
+
+        No proxying; just DNS resolution.
 
 
 
