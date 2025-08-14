@@ -88,5 +88,19 @@ In Kubernetes, a Service is an abstraction that defines a logical set of Pods an
         No proxying; just DNS resolution.
 
 
+# Nginx 
+
+## Forward Proxy 
+
+<img width="1185" height="711" alt="Screenshot 2025-08-14 130246" src="https://github.com/user-attachments/assets/a880fc40-2e69-424b-8867-31a2f9a18330" />
+
+## Reverse Proxy
+
+<img width="1331" height="753" alt="Screenshot 2025-08-14 130922" src="https://github.com/user-attachments/assets/c5aad137-17d4-4237-8132-3a653d22a282" />
+
+
+
+
+
 
 
