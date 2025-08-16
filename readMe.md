@@ -100,6 +100,9 @@ In Kubernetes, a Service is an abstraction that defines a logical set of Pods an
 
 
 
+Web server mode: Nginx mainly serves static files, caches content, and proxies requests to backend servers.
+
+Load balancer mode: Nginx distributes traffic across multiple backend servers. Big companies often combine Nginx with dedicated load balancers for advanced traffic handling.
 
 
 
