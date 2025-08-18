@@ -104,6 +104,8 @@ Web server mode: Nginx mainly serves static files, caches content, and proxies r
 
 Load balancer mode: Nginx distributes traffic across multiple backend servers. Big companies often combine Nginx with dedicated load balancers for advanced traffic handling.
 
+## Port mapping in pods via network or nodePort 
 
+<img width="1521" height="723" alt="Screenshot 2025-08-18 093749" src="https://github.com/user-attachments/assets/97a2dbbf-4c20-4127-aa88-86ab832fac2e" />
 
 
